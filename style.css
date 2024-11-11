@@ -9,105 +9,110 @@
 
 
 
-  body {
-    background-color: #f9f9f9;
-  }
+body {
+  background-color: #f9f9f9;
+}
 
-  /* Basic styling for the header */
-  .header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: #fff;
-    z-index: 1000;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
+.head {
+  width: auto;
+  height: auto;
+}
 
-  /* This class will hide the header */
-  .scrolled .header {
-    opacity: 0;
-    transform: translateY(-100%);
-    pointer-events: none;
-    /* Makes it unclickable */
-  }
+/* Basic styling for the header */
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* This class will hide the header */
+.scrolled .header {
+  opacity: 0;
+  transform: translateY(-100%);
+  pointer-events: none;
+  /* Makes it unclickable */
+}
 
 
-  .restaurant-profile {
-    display: flex;
-    align-items: center;
-  }
+.restaurant-profile {
+  display: flex;
+  align-items: center;
+}
 
-  .cover-photo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-  }
+.cover-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
 
-  .restaurant-info h2 {
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
+.restaurant-info h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
 
-  .ratings {
-    color: #888;
-    font-size: 14px;
-  }
+.ratings {
+  color: #888;
+  font-size: 14px;
+}
 
-  /* Tabs for Category Selection */
-  .tabs {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-  }
+/* Tabs for Category Selection */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
 
-  .tab {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #eee;
-    border: none;
-    outline: none;
-    color: #333;
-    text-align: center;
-  }
+.tab {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  color: #333;
+  text-align: center;
+}
 
-  .tab.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+.tab.active {
+  background-color: #4CAF50;
+  color: white;
+}
 
-  /* Menu List Styles */
-  .menu-list {
-    padding: 0 15px;
-  }
+/* Menu List Styles */
+.menu-list {
+  padding: 0 15px;
+}
 
-  .menu-item {
-    display: flex;
-    align-items: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #ddd;
-  }
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
 
-  .item-photo {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    margin-right: 15px;
-  }
+.item-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
 
-  .item-details h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
+.item-details h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
 
-  .item-details p {
-    font-size: 14px;
-    color: #555;
-  }
+.item-details p {
+  font-size: 14px;
+  color: #555;
+}
 
-  /* Hide items by default for filtering */
-  .menu-item {
-    display: none;
-  }
+/* Hide items by default for filtering */
+.menu-item {
+  display: none;
+}
