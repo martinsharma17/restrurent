@@ -14,7 +14,7 @@ body {
 }
 
 .head {
-  width: auto;
+  width: 75%;
   height: auto;
   
 }
@@ -80,7 +80,7 @@ body {
 }
 
 .tab.active {
-  background-color: #4CAF50;
+  background-color: #df1212;
   color: white;
 }
 
