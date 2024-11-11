@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sticky Header -->
+     
+    <div class="header">
+        <img src="image.png">
+        <div class="restaurant-profile">
+            <img src="image.png" alt="Restaurant Cover" class="cover-photo">
+            <div class="restaurant-info">
+                <h2>Restoo Bistro</h2>
+                <p>Jl. Sudirman Canggu, Bali</p>
+                <div class="ratings">⭐⭐⭐⭐⭐ 120 Reviews</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="tabs">
+        <button onclick="filterMenu('drinks')" class="tab" id="drinks-tab">Drinks</button>
+        <button onclick="filterMenu('food')" class="tab" id="food-tab">Food</button>
+    </div>
+
+    <!-- Menu List -->
+    <div class="menu-list">
+        <!-- Drink Items -->
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Mocha Cookie Crumble" class="item-photo">
+            <div class="item-details">
+                <h3>Mocha Cookie Crumble</h3>
+                <p>$6.95</p>
+            </div>
+        </div>
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Pistachio Frappuccino" class="item-photo">
+            <div class="item-details">
+                <h3>Pistachio Frappuccino</h3>
+                <p>$11.75</p>
+            </div>
+        </div>
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Mocha Cookie Crumble" class="item-photo">
+            <div class="item-details">
+                <h3>Mocha Cookie Crumble</h3>
+                <p>$6.95</p>
+            </div>
+        </div>
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Pistachio Frappuccino" class="item-photo">
+            <div class="item-details">
+                <h3>Pistachio Frappuccino</h3>
+                <p>$11.75</p>
+            </div>
+        </div>
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Mocha Cookie Crumble" class="item-photo">
+            <div class="item-details">
+                <h3>Mocha Cookie Crumble</h3>
+                <p>$6.95</p>
+            </div>
+        </div>
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Pistachio Frappuccino" class="item-photo">
+            <div class="item-details">
+                <h3>Pistachio Frappuccino</h3>
+                <p>$11.75</p>
+            </div>
+        </div>
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Mocha Cookie Crumble" class="item-photo">
+            <div class="item-details">
+                <h3>Mocha Cookie Crumble</h3>
+                <p>$6.95</p>
+            </div>
+        </div>
+        <div class="menu-item drinks">
+            <img src="coffee.png" alt="Pistachio Frappuccino" class="item-photo">
+            <div class="item-details">
+                <h3>Pistachio Frappuccino</h3>
+                <p>$11.75</p>
+            </div>
+        </div>
+
+        <!-- Food Items -->
+        <div class="menu-item food">
+            <img src="food.png" alt="Caffè Latte" class="item-photo">
+            <div class="item-details">
+                <h3>Caffè Latte</h3>
+                <p>$9.99</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Iced Passionfruit Drink" class="item-photo">
+            <div class="item-details">
+                <h3>Iced Passionfruit Drink</h3>
+                <p>$4.75</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Caffè Latte" class="item-photo">
+            <div class="item-details">
+                <h3>Caffè Latte</h3>
+                <p>$9.99</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Iced Passionfruit Drink" class="item-photo">
+            <div class="item-details">
+                <h3>Iced Passionfruit Drink</h3>
+                <p>$4.75</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Caffè Latte" class="item-photo">
+            <div class="item-details">
+                <h3>Caffè Latte</h3>
+                <p>$9.99</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Iced Passionfruit Drink" class="item-photo">
+            <div class="item-details">
+                <h3>Iced Passionfruit Drink</h3>
+                <p>$4.75</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Caffè Latte" class="item-photo">
+            <div class="item-details">
+                <h3>Caffè Latte</h3>
+                <p>$9.99</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Iced Passionfruit Drink" class="item-photo">
+            <div class="item-details">
+                <h3>Iced Passionfruit Drink</h3>
+                <p>$4.75</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Caffè Latte" class="item-photo">
+            <div class="item-details">
+                <h3>Caffè Latte</h3>
+                <p>$9.99</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Iced Passionfruit Drink" class="item-photo">
+            <div class="item-details">
+                <h3>Iced Passionfruit Drink</h3>
+                <p>$4.75</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Caffè Latte" class="item-photo">
+            <div class="item-details">
+                <h3>Caffè Latte</h3>
+                <p>$9.99</p>
+            </div>
+        </div>
+        <div class="menu-item food">
+            <img src="food.png" alt="Iced Passionfruit Drink" class="item-photo">
+            <div class="item-details">
+                <h3>Iced Passionfruit Drink</h3>
+                <p>$4.75</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
