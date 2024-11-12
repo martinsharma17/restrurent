@@ -15,10 +15,6 @@ window.addEventListener('scroll', function () {
     }
 });
 
-// Listen for the scroll event
-
-
-// JavaScript to handle the sticky and resizing effect on scroll
 
 // Filter Menu Items based on category selection
 function filterMenu(category) {
