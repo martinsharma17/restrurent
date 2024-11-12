@@ -2,19 +2,23 @@
 document.getElementById('drinks-tab').classList.add('active');
 filterMenu('drinks');
 
-// Listen for the scroll event
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', function () {
     const header = document.querySelector('.header');
+    const container = document.querySelector('.container');
 
-    if (window.scrollY > 50) {
-        // Add the .scrolled class when scrolling down
-        document.body.classList.add('scrolled');
+    if (window.scrollY > 50) { // When user scrolls down past 50px
+        header.classList.add('sticky');
+        container.classList.add('sticky'); // Adjust container padding
     } else {
-        // Remove the .scrolled class when back at the top
-        document.body.classList.remove('scrolled');
+        header.classList.remove('sticky');
+        container.classList.remove('sticky');
     }
 });
 
+// Listen for the scroll event
+
+
+// JavaScript to handle the sticky and resizing effect on scroll
 
 // Filter Menu Items based on category selection
 function filterMenu(category) {
